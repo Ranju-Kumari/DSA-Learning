@@ -7,9 +7,6 @@ public class MajorityElement_LC_169 {
         System.out.println(majorityElement(nums));
     }
 
-
-  // This is O(n*n) time complexity approach. 
-  // This will give TLE error for large inputs constraints -109 <= nums[i] <= 109
     public static int majorityElement(int[] nums){
 
         int count =0;

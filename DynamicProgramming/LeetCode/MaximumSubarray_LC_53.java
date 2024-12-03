@@ -1,6 +1,8 @@
+package LeetCode;
+
 import static java.lang.Math.max;
 
-public class MaximumSubarraySum {
+public class MaximumSubarray_LC_53 {
 
     public static void main(String [] args){
         int [] a = {-2,1,-3,4,-1,2,1,-5,4};
@@ -9,7 +11,6 @@ public class MaximumSubarraySum {
 
     }
 
-  //Brute force approach : O(n*n)
     public static int maxSum_BigOofNsquareSoln(int [] a){
 
         int maxSum = Integer.MIN_VALUE;
@@ -26,7 +27,6 @@ public class MaximumSubarraySum {
         return maxSum;
     }
 
-  //Kadane's algo : O(n)
     public static long maxSum_KadanesAlgo(int [] a){
 
         long sum=0;
@@ -40,3 +40,7 @@ public class MaximumSubarraySum {
             if(sum<0){
                 sum=0;
             }
+        }
+        return maxSum;
+    }
+}
