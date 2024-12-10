@@ -1,4 +1,4 @@
-package LeetCode;
+package dsa_learning.GreedyAlgo.LeetCode;
 
 import java.util.Arrays;
 

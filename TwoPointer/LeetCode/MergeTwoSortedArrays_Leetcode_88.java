@@ -1,4 +1,4 @@
-package LeetCode;
+package dsa_learning.TwoPointer.LeetCode;
 
 public class MergeTwoSortedArrays_Leetcode_88 {
 

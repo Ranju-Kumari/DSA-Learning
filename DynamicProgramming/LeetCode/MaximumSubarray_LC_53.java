@@ -1,4 +1,4 @@
-package LeetCode;
+package dsa_learning.DynamicProgramming.LeetCode;
 
 import static java.lang.Math.max;
 

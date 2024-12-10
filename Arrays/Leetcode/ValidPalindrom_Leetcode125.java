@@ -1,4 +1,4 @@
-package LeetCode;
+package dsa_learning.Arrays.Leetcode;
 
 public class ValidPalindrom_Leetcode125 {
 

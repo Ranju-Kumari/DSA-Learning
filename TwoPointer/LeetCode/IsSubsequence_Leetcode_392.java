@@ -1,4 +1,4 @@
-package LeetCode;
+package dsa_learning.TwoPointer.LeetCode;
 
 public class IsSubsequence_Leetcode_392 {
 
