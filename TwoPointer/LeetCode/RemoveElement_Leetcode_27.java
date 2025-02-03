@@ -10,10 +10,13 @@ public class RemoveElement_Leetcode_27 {
         System.out.println(removeElement(nums));
     }
 
-    public static int removeElement(int[] nums) {
-        int k=0;
+    public int removeDuplicates(int[] nums) {
+      int k=0;
         Arrays.sort(nums);
         for(int i=1;i<=nums.length-1;i++){
+            //Two pointer approach here
+            // One, that would keep track of the current element in the original array
+            //and another one for just for the unique elements
             if(nums[k]!=nums[i]){
                 k++;
                 nums[k]=nums[i];
