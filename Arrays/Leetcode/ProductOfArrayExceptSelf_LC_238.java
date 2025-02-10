@@ -12,6 +12,26 @@ public class ProductOfArrayExceptSelf_LC_238 {
         }
     }
 
+    //O(n) approach :
+    // Find the product of all numbers
+    // Then one by one divide each element of the array by the productOfAllnums which will give the answer[i]
+    // containing product of all nums except the number itself.
+    // Note: This approach will not work for the input array conating 0 as array element.
+    public static int[] productExceptSelf(int [] nums){
+        int [] answer = new int[nums.length];
+        int productOfAllNums=1;
+        for(int i=0;i<=nums.length-1;i++){
+            productOfAllNums=productOfAllNums*nums[i];
+            System.out.println(productOfAllNums);
+        }
+
+        for(int i=0;i<=nums.length-1;i++){
+            answer[i]=productOfAllNums/nums[i];
+        }
+        return answer;
+    }
+
+    
     //O(n^2) approach
     public static int [] productExceptSelf(int[] nums){
         int [] answer = new int[nums.length];
