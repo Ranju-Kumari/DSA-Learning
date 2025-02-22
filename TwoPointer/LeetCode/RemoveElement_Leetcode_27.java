@@ -7,7 +7,7 @@ public class RemoveElement_Leetcode_27 {
     public static void main(String[] args){
 
         int [] nums = {0,1,2,2,3,0,4,2};
-        System.out.println(removeElement(nums));
+        System.out.println(removeDuplicates(nums));
     }
 
     public int removeDuplicates(int[] nums) {
