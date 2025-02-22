@@ -33,7 +33,7 @@ public class ProductOfArrayExceptSelf_LC_238 {
 
     
     //O(n^2) approach
-    public static int [] productExceptSelf(int[] nums){
+    public static int [] productExceptSelf_BruteForce(int[] nums){
         int [] answer = new int[nums.length];
         for(int i=0;i<=answer.length-1;i++){
             answer[i]=1;
