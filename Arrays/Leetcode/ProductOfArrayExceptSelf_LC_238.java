@@ -30,7 +30,6 @@ public class ProductOfArrayExceptSelf_LC_238 {
         }
         return answer;
     }
-
     
     //O(n^2) approach
     public static int [] productExceptSelf_BruteForce(int[] nums){
