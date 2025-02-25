@@ -1,0 +1,16 @@
+
+        for (int n : nums) {
+            int count = 0;
+            for (int elem : nums) {
+                if (elem == n) {
+                    count += 1;
+                }
+            }
+
+            if (count > nums.length/2) {
+                return n;
+            }
+
+        }
+
+        return -1;   
